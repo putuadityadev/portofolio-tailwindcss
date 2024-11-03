@@ -66,7 +66,12 @@ if (contactForm) {
 
         // If validation fails, show error and stop
         if (!isValid) {
-            alert(errorMessage);
+            Swal.fire({
+                icon: 'error',
+                title: 'Validation Error',
+                text: errorMessage,
+                confirmButtonColor: '#6366f1'
+            });
             return;
         }
 
@@ -99,18 +104,33 @@ if (contactForm) {
             const data = await response.json();
 
             if (response.status === 200) {
-                alert('Pesan berhasil terkirim!');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success!',
+                    text: 'Message sent successfully!',
+                    confirmButtonColor: '#6366f1'
+                });
                 contactForm.reset();
                 // Reset any error styling
                 nameInput.style.borderColor = '';
                 emailInput.style.borderColor = '';
                 messageInput.style.borderColor = '';
             } else {
-                alert(data.message || 'Terjadi kesalahan!');
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: data.message || 'Something went wrong!',
+                    confirmButtonColor: '#6366f1'
+                });
             }
         } catch (error) {
             console.error('Error:', error);
-            alert('Gagal mengirim pesan. Silakan coba lagi.');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error!',
+                text: 'Failed to send message. Please try again.',
+                confirmButtonColor: '#6366f1'
+            });
         } finally {
             submitBtn.disabled = false;
             submitBtn.textContent = 'Send';
