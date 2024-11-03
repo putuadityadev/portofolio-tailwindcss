@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">PutuAdityaDev</a>
+                </div>
+                <div class="flex ietms-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Skills</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blogs</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-20 lg:pt-16">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-secondary lg:text-xl">
+                        Haii 👋, my name is <span class="block font-semibold text-dark text-4xl mt-1 lg:text-4xl">Aditya Satriawan</span>
+                    </h1>
+                    <h2 class="font-medium text-secondary mb-5">
+                        Web Developer | Content Creator
+                    </h2>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed lg:text-2xl">
+                        Coding is hard if we just <span class="font-bold text-dark font-style: italic">think</span> about it, but when we <span class="font-bold text-primary">break it down</span>, it becomes easy to learn and fun to do.
+                    </p>
+
+                    <a href="#contact" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me!</a>
+                </div>
+
+                <div class="w-full self-end px-4 lg:w-1/2 ">
+                    <div class="mt-10 relative lg:mt-9 lg:right-0 group">
+                        <img src="dist/img/foto.png" alt="profile-picture" class="mx-auto object-cover grayscale hover:scale-110 hover:grayscale-0 transform transition-all duration-500 ease-in-out">
+                        <span class="absolute bottom-10 -z-10 left-1/2 -translate-x-1/2 md:scale-125 transition-transform duration-500 ease-in-out group-hover:scale-90">
+                            <svg width="400" height="350" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path id="background-svg" fill="#6366f1" d="M58.5,-58.9C74.7,-42.4,85.7,-21.2,85.8,0.1C85.9,21.4,75.1,42.8,59,54.5C42.8,66.1,21.4,67.9,0.5,67.4C-20.3,66.8,-40.6,63.9,-51.9,52.3C-63.1,40.6,-65.3,20.3,-63.2,2.1C-61.1,-16.1,-54.7,-32.2,-43.5,-48.7C-32.2,-65.3,-16.1,-82.2,2.5,-84.7C21.2,-87.3,42.4,-75.4,58.5,-58.9Z" transform="translate(100 100) scale(1.1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section  End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-xl lg:text-4xl">Building your digital dreams with code!</h2>
+                    <p class="font-medium text-secondary text-base max-w-xl lg:text-lg">I’m a passionate web developer and content creator who believes that technology can turn ideas into impactful solutions. With a solid foundation in modern web technologies, I help individuals and businesses bring their online vision to life with a focus on functionality and aesthetics.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-bold text-dark text-2xl mb-4 lg:3xl lg:pt-10">Let's be firends</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Connect with me, and let’s explore how coding, creativity, and collaboration can drive innovation. I’d love to be part of your journey, whether you’re looking for web development services or creative digital content.</p>
+                    <div class="flex items-center">
+                        <!-- Whatsapp -->
+                            <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                                <svg id='WhatsApp_24' class="fill-current" width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+
+                                    <g transform="matrix(0.83 0 0 0.83 12 12)" >
+                                    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; opacity: 1;" transform=" translate(-15, -15)" d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z" stroke-linecap="round" />
+                                    </g>
+                                    </svg>
+                            </a>
+
+                        <!-- Instagram -->
+                            <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                                <svg id='Instagram_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+                                    <g transform="matrix(0.83 0 0 0.83 12 12)" >
+                                    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; opacity: 1;" transform=" translate(-15, -15)" d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 C 12.790861000676827 11 11 12.790861000676827 11 15 C 11 17.209138999323173 12.790861000676827 19 15 19 C 17.209138999323173 19 19 17.209138999323173 19 15 C 19 12.790861000676827 17.209138999323173 11 15 11 z" stroke-linecap="round" />
+                                    </g>
+                                    </svg>
+                            </a>
+
+                        <!-- Youtube -->
+                            <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                                <svg id='YouTube_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+                                    <g transform="matrix(0.38 0 0 0.38 12 12)" >
+                                    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; fill-rule: nonzero; opacity: 1;" transform=" translate(-32, -32)" d="M 56.456 17.442 C 56.117000000000004 16.002 55.035000000000004 14.847 53.59 14.389 C 49.761 13.174 41.454 12 32 12 C 22.546 12 14.239 13.174 10.408999999999999 14.389 C 8.963999999999999 14.847 7.881999999999999 16.002 7.542999999999999 17.442 C 6.903 20.161 6 25.203 6 32 C 6 38.797 6.9030000000000005 43.839 7.5440000000000005 46.558 C 7.883000000000001 47.998 8.965 49.153 10.41 49.611 C 14.239 50.826 22.546 52 32 52 C 41.454 52 49.760999999999996 50.826 53.591 49.611 C 55.036 49.153 56.118 47.998 56.457 46.558 C 57.097 43.839 58 38.797 58 32 C 58 25.203 57.097 20.161 56.456 17.442 z M 27 40 L 27 24 L 41.857 32 L 27 40 z" stroke-linecap="round" />
+                                    </g>
+                                    </svg>
+                            </a>
+
+                        <!-- TikTok -->
+                            <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                                <svg id='Tiktok_2_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+                                    <g transform="matrix(0.83 0 0 0.83 12 12)" >
+                                    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -12)" d="M 18.5 0 L 5.5 0 C 2.4647165063682794 0.005503700768375538 0.005503700768374031 2.464716506368283 1.7763568394002505e-15 5.5000000000000036 L 0 18.5 C 0.0055037007683740044 21.53528349363172 2.4647165063682803 23.994496299231624 5.500000000000001 24 L 18.5 24 C 21.53528349363172 23.994496299231628 23.994496299231624 21.53528349363172 24 18.5 L 24 5.5 C 23.994496299231624 2.4647165063682794 21.535283493631717 0.005503700768373143 18.499999999999996 1.7763568394002505e-15 Z M 19.5 10.25 C 17.590340404739642 10.239912686553415 15.774039176151403 9.42257713368871 14.5 8.000000000000002 L 14.5 15.5 C 14.5 18.261423749153966 12.261423749153966 20.5 9.5 20.5 C 6.738576250846033 20.5 4.5 18.261423749153966 4.5 15.5 C 4.5 12.738576250846034 6.738576250846033 10.5 9.5 10.5 C 9.667510224597859 10.506743789726297 9.834471405646392 10.52343990783115 9.999999999999995 10.55 L 10 13.05 C 9.835224872098049 13.017997519353559 9.667849378962591 13.001259970040014 9.5 13 C 8.119288125423017 13 7 14.119288125423017 7 15.5 C 7 16.880711874576985 8.119288125423017 18 9.5 18 C 10.880711874576983 18 12 16.880711874576985 12 15.5 L 12 3.5 L 15 3.5 L 15.15 4.1 C 15.646375723723839 6.098314536644324 17.440959230382813 7.500977507366281 19.5 7.5 Z" stroke-linecap="round" />
+                                    </g>
+                                    </svg>
+                            </a>
+
+                        <!-- Linkedln -->
+                            <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                                <svg id='LinkedIn_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+                                    <g transform="matrix(0.77 0 0 0.77 12 12)" >
+                                    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: current; fill-rule: nonzero; opacity: 1;" transform=" translate(-13, -13)" d="M 21.125 0 L 4.875 0 C 2.183594 0 0 2.183594 0 4.875 L 0 21.125 C 0 23.816406 2.183594 26 4.875 26 L 21.125 26 C 23.816406 26 26 23.816406 26 21.125 L 26 4.875 C 26 2.183594 23.816406 0 21.125 0 Z M 8.039063 22.070313 L 4 22.070313 L 3.976563 9.976563 L 8.015625 9.976563 Z M 5.917969 8.394531 L 5.894531 8.394531 C 4.574219 8.394531 3.722656 7.484375 3.722656 6.351563 C 3.722656 5.191406 4.601563 4.3125 5.945313 4.3125 C 7.289063 4.3125 8.113281 5.191406 8.140625 6.351563 C 8.140625 7.484375 7.285156 8.394531 5.917969 8.394531 Z M 22.042969 22.070313 L 17.96875 22.070313 L 17.96875 15.5 C 17.96875 13.910156 17.546875 12.828125 16.125 12.828125 C 15.039063 12.828125 14.453125 13.558594 14.171875 14.265625 C 14.066406 14.519531 14.039063 14.867188 14.039063 15.222656 L 14.039063 22.070313 L 9.945313 22.070313 L 9.921875 9.976563 L 14.015625 9.976563 L 14.039063 11.683594 C 14.5625 10.875 15.433594 9.730469 17.519531 9.730469 C 20.105469 9.730469 22.039063 11.417969 22.039063 15.046875 L 22.039063 22.070313 Z" stroke-linecap="round" />
+                                    </g>
+                                    </svg>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="bg-indigo-100 pt-20 pb-16">
+        <div class="container ">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-6">
+                    <h4 class="font-semibold text-lg text-primary mb-2">PORTOFOLIO</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Newest Project</h2>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./dist/img/porto-1.png" alt="React-Movie-Hub" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Movie Hub with React.js</h3>
+                    <p class="font-medium text-base text-secondary">Dive into the world of movies with React-Movie-Hub! This project features an intuitive and sleek user interface for finding movies, checking ratings, and exploring genres—all built with the power of React.js.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./dist/img/porto-2.png" alt="React-Movie-Hub" class="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">E-Commerce Amazone-Clone</h3>
+                    <p class="font-medium text-base text-secondary">Inspired by Amazon’s design, this clone project showcases a fully functional e-commerce front-end where users can browse, search, and add items to their cart. Experience the art of building interactive shopping interfaces!</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Portofolio Section End -->
+    
+    <!-- Skill Section Start -->
+    <section id="skills" class="bg-primary pt-20 pb-16">
+        <div class="container">
+            <div class="w-full px-2">
+                <div class="max-w-xl mx-auto text-center mb-6">
+                    <h4 class="font-semibold text-lg text-white mb-2">SKILLS</h4>
+                    <h2 class="font-bold text-3xl text-white">Web Development</h2>
+                </div>
+                <div class="flex overflow-hidden space-x-9 group">
+                    <div class="px-4 flex items-center justify-center space-x-9 animate-loop-scroll">
+                        <img src="./dist/img/html.png" alt="html" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/css.png" alt="css" class="h-[60px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[70px] duration-300">
+                        <img src="./dist/img/js.png" alt="js" class="h-[70px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[80px] duration-300">
+                        <img src="./dist/img/React.png" alt="react" class="h-[70px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[80px] duration-300">
+                        <img src="./dist/img/tailwind.png" alt="tailwind" class="h-[120px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[130px] duration-300">
+                    </div>
+                    <div class="px-4 flex items-center justify-center space-x-9 animate-loop-scroll aria-hidden:'true'">
+                        <img src="./dist/img/html.png" alt="html" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/css.png" alt="css" class="h-[60px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[70px] duration-300">
+                        <img src="./dist/img/js.png" alt="js" class="h-[70px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[80px] duration-300">
+                        <img src="./dist/img/React.png" alt="react" class="h-[70px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[80px] duration-300">
+                        <img src="./dist/img/tailwind.png" alt="tailwind" class="h-[120px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[130px] duration-300">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full px-4 mt-10">
+                <div class="max-w-xl mx-auto text-center mb-6">
+                    <h2 class="font-bold text-3xl text-white">Content Creations</h2>
+                </div>
+                <div class="flex overflow-hidden group">
+                    <div class="px-4 flex items-center justify-center space-x-10 animate-loop-scroll2">
+                        <img src="./dist/img/photoshop.png" alt="html" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/premier.png" alt="css" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/ae.png" alt="js" class="h-[72px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[82px] duration-300">
+                        <img src="./dist/img/capcut.jpg" alt="react" class="h-[48px] rounded-lg filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[58px] duration-300">
+                        <img src="./dist/img/figma.png" alt="tailwind" class="h-[60px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[70px] duration-300">
+                    </div>
+                    <div class="px-4 flex items-center justify-center space-x-10 animate-loop-scroll2 aria-hidden ='true'">
+                        <img src="./dist/img/photoshop.png" alt="html" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/premier.png" alt="css" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/ae.png" alt="js" class="h-[72px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[82px] duration-300">
+                        <img src="./dist/img/capcut.jpg" alt="react" class="h-[48px] rounded-lg filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[58px] duration-300">
+                        <img src="./dist/img/figma.png" alt="tailwind" class="h-[60px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[70px] duration-300">
+                    </div>
+                    <div class="px-4 flex items-center justify-center space-x-10 animate-loop-scroll2 aria-hidden ='true'">
+                        <img src="./dist/img/photoshop.png" alt="html" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/premier.png" alt="css" class="h-[50px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[60px] duration-300">
+                        <img src="./dist/img/ae.png" alt="js" class="h-[72px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[82px] duration-300">
+                        <img src="./dist/img/capcut.jpg" alt="react" class="h-[48px] rounded-lg filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[58px] duration-300">
+                        <img src="./dist/img/figma.png" alt="tailwind" class="h-[60px] filter grayscale max-w-none hover:grayscale-0 transition-all ease-in-out hover:h-[70px] duration-300">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Skill Section End -->
+
+    <!-- Blogs Section  Start -->
+    <section id="blog" class="bg-indigo-100 pt-20 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-6">
+                    <h4 class="font-semibold text-lg text-primary mb-2">BLOG</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">My Lastest Blog</h2>
+                </div>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="programer" class="w-full">
+                    <div class="py-8 px-6">
+                        <h3>
+                            <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate transition ease-in-out">Standard Programing for 2025?</a>
+                        </h3>
+                        <p class="font-medium text-base text-secondary mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores debitis voluptates ipsum?</p>
+                        <a href="" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Read full text here!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <img src="https://images.unsplash.com/photo-1514543250559-83867827ecce?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="programer" class="w-full">
+                    <div class="py-8 px-6">
+                        <h3>
+                            <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate transition ease-in-out">is Macbook good for coding?</a>
+                        </h3>
+                        <p class="font-medium text-base text-secondary mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores debitis voluptates ipsum?</p>
+                        <a href="" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Read full text here!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="programer" class="w-full">
+                    <div class="py-8 px-6">
+                        <h3>
+                            <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate transition ease-in-out">AI is here! Get Ready for Revolution?</a>
+                        </h3>
+                        <p class="font-medium text-base text-secondary mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores debitis voluptates ipsum?</p>
+                        <a href="" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Read full text here!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blogs Section End  -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-20 pb-16">
+        <div class="container">
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-6">
+                        <h4 class="font-semibold text-lg text-primary mb-2">CONTACT</h4>
+                        <h2 class="font-bold text-dark text-3xl mb-4">Contact me here!</h2>
+                    </div>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="c46aeb10-cac3-4521-9770-26209779818f">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base font-bold text-primary">Nama</label>
+                        <input type="text" id="name" placeholder="Enter your name" class="w-full bg-indigo-100 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base font-bold text-primary">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" class="w-full bg-indigo-100 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="messege" class="text-base font-bold text-primary">Messege</label>
+                        <textarea id="messege" placeholder="Type your messege, for me..." class="w-full bg-indigo-100 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-300 ease-in-out" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End --> 
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-20 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-indigo-100 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl mb-5 text-white">PutuAdityaDev</h2>
+                    <h3 class="font-bold text-2xl mb-2">Contact Us</h3>
+                    <p>adityamph1@gmail.com</p>
+                    <p>Nusantara street, Bangli, Bali</p>
+                    <p>Indonesia</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Blog Category
+                    </h3>
+                    <ul class="text-indigo-200">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Programing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Artificial Intelligence</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Web Development</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Link
+                    </h3>
+                    <ul class="text-indigo-200">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">About</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio" class="inline-block text-base hover:text-primary mb-3">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="inline-block text-base hover:text-primary mb-3">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-full pt-10 border-t border-indigo-100">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- Whatsapp -->
+                        <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                            <svg id='WhatsApp_24' class="fill-current" width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+
+                                <g transform="matrix(0.83 0 0 0.83 12 12)" >
+                                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; opacity: 1;" transform=" translate(-15, -15)" d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z" stroke-linecap="round" />
+                                </g>
+                                </svg>
+                        </a>
+
+                    <!-- Instagram -->
+                        <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                            <svg id='Instagram_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+                                <g transform="matrix(0.83 0 0 0.83 12 12)" >
+                                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; opacity: 1;" transform=" translate(-15, -15)" d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 C 12.790861000676827 11 11 12.790861000676827 11 15 C 11 17.209138999323173 12.790861000676827 19 15 19 C 17.209138999323173 19 19 17.209138999323173 19 15 C 19 12.790861000676827 17.209138999323173 11 15 11 z" stroke-linecap="round" />
+                                </g>
+                                </svg>
+                        </a>
+
+                    <!-- Youtube -->
+                        <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                            <svg id='YouTube_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+                                <g transform="matrix(0.38 0 0 0.38 12 12)" >
+                                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; fill-rule: nonzero; opacity: 1;" transform=" translate(-32, -32)" d="M 56.456 17.442 C 56.117000000000004 16.002 55.035000000000004 14.847 53.59 14.389 C 49.761 13.174 41.454 12 32 12 C 22.546 12 14.239 13.174 10.408999999999999 14.389 C 8.963999999999999 14.847 7.881999999999999 16.002 7.542999999999999 17.442 C 6.903 20.161 6 25.203 6 32 C 6 38.797 6.9030000000000005 43.839 7.5440000000000005 46.558 C 7.883000000000001 47.998 8.965 49.153 10.41 49.611 C 14.239 50.826 22.546 52 32 52 C 41.454 52 49.760999999999996 50.826 53.591 49.611 C 55.036 49.153 56.118 47.998 56.457 46.558 C 57.097 43.839 58 38.797 58 32 C 58 25.203 57.097 20.161 56.456 17.442 z M 27 40 L 27 24 L 41.857 32 L 27 40 z" stroke-linecap="round" />
+                                </g>
+                                </svg>
+                        </a>
+
+                    <!-- TikTok -->
+                        <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                            <svg id='Tiktok_2_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+                                <g transform="matrix(0.83 0 0 0.83 12 12)" >
+                                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill:current; fill-rule: nonzero; opacity: 1;" transform=" translate(-12, -12)" d="M 18.5 0 L 5.5 0 C 2.4647165063682794 0.005503700768375538 0.005503700768374031 2.464716506368283 1.7763568394002505e-15 5.5000000000000036 L 0 18.5 C 0.0055037007683740044 21.53528349363172 2.4647165063682803 23.994496299231624 5.500000000000001 24 L 18.5 24 C 21.53528349363172 23.994496299231628 23.994496299231624 21.53528349363172 24 18.5 L 24 5.5 C 23.994496299231624 2.4647165063682794 21.535283493631717 0.005503700768373143 18.499999999999996 1.7763568394002505e-15 Z M 19.5 10.25 C 17.590340404739642 10.239912686553415 15.774039176151403 9.42257713368871 14.5 8.000000000000002 L 14.5 15.5 C 14.5 18.261423749153966 12.261423749153966 20.5 9.5 20.5 C 6.738576250846033 20.5 4.5 18.261423749153966 4.5 15.5 C 4.5 12.738576250846034 6.738576250846033 10.5 9.5 10.5 C 9.667510224597859 10.506743789726297 9.834471405646392 10.52343990783115 9.999999999999995 10.55 L 10 13.05 C 9.835224872098049 13.017997519353559 9.667849378962591 13.001259970040014 9.5 13 C 8.119288125423017 13 7 14.119288125423017 7 15.5 C 7 16.880711874576985 8.119288125423017 18 9.5 18 C 10.880711874576983 18 12 16.880711874576985 12 15.5 L 12 3.5 L 15 3.5 L 15.15 4.1 C 15.646375723723839 6.098314536644324 17.440959230382813 7.500977507366281 19.5 7.5 Z" stroke-linecap="round" />
+                                </g>
+                                </svg>
+                        </a>
+
+                    <!-- Linkedln -->
+                        <a href="/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white hover:bg-primary text-slate-300">
+                            <svg id='LinkedIn_24' width='24' height='24' class="fill-current" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+                                <g transform="matrix(0.77 0 0 0.77 12 12)" >
+                                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: current; fill-rule: nonzero; opacity: 1;" transform=" translate(-13, -13)" d="M 21.125 0 L 4.875 0 C 2.183594 0 0 2.183594 0 4.875 L 0 21.125 C 0 23.816406 2.183594 26 4.875 26 L 21.125 26 C 23.816406 26 26 23.816406 26 21.125 L 26 4.875 C 26 2.183594 23.816406 0 21.125 0 Z M 8.039063 22.070313 L 4 22.070313 L 3.976563 9.976563 L 8.015625 9.976563 Z M 5.917969 8.394531 L 5.894531 8.394531 C 4.574219 8.394531 3.722656 7.484375 3.722656 6.351563 C 3.722656 5.191406 4.601563 4.3125 5.945313 4.3125 C 7.289063 4.3125 8.113281 5.191406 8.140625 6.351563 C 8.140625 7.484375 7.285156 8.394531 5.917969 8.394531 Z M 22.042969 22.070313 L 17.96875 22.070313 L 17.96875 15.5 C 17.96875 13.910156 17.546875 12.828125 16.125 12.828125 C 15.039063 12.828125 14.453125 13.558594 14.171875 14.265625 C 14.066406 14.519531 14.039063 14.867188 14.039063 15.222656 L 14.039063 22.070313 L 9.945313 22.070313 L 9.921875 9.976563 L 14.015625 9.976563 L 14.039063 11.683594 C 14.5625 10.875 15.433594 9.730469 17.519531 9.730469 C 20.105469 9.730469 22.039063 11.417969 22.039063 15.046875 L 22.039063 22.070313 Z" stroke-linecap="round" />
+                                </g>
+                                </svg>
+                        </a>
+                </div>
+                <div>
+                    <p class="font-medium text-xs text-indigo-50 text-center">Made with <span class="text-pink-500">💕</span> by <a href="https://instagram.com/tu.aditya_" target="_blank" class="font-bold text-primary">Aditya Satriawan</a>, using the power of <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!--  Back to Home -->
+    <!-- <a href="#home" class="fixed bottom-4 right-4 z-[9999] h-14 w-14 rounded-full bg-white p-4 text-center shadow-sm shadow-primary">
+        <img src="./dist/img/top.png" alt="" class="invert brightness-100">
+    </a> -->
+
+    <script src="/dist/js/script.js" type="module"></script>
+</body>
+</html>
+
+
+
